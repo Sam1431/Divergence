@@ -12,10 +12,10 @@ def cavern_enter():
   print("You feel your heart racing of fear", color.red)
   sleep(1)
   print("You see someone near you..\n It's the goddess herself, Medusa standing before you...", color.red)
-  print("What do think will happen to you now??", color.red)
+  print("What do think will happen to you now??", color.white)
 
 def choice_dark():
-  dark_choice = input(color.white,"Choose the possible outcome:\n 1: You instantly die of petrification\n 2: Nothing happens to you.\n 3: She is dead.\n >> ")
+  dark_choice = input("Choose the possible outcome:\n 1: You instantly die of petrification\n 2: Nothing happens to you.\n 3: She is dead.\n >> ")
   if dark_choice == '1':
     print("\nYou died of petrification..",color.blue)
     sleep(2)

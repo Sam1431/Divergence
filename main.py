@@ -20,7 +20,7 @@ print (color.purple, "\n shall we start the game ??")
 
 menuchoice = input(" Yes / No >> ")
 
-if menuchoice == 'yes':
+if menuchoice == 'yes' or 'y':
  sleep(1)
  scene.strt1()
  sleep(2)

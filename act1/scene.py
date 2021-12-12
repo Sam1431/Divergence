@@ -11,8 +11,9 @@ from misc import color
 
 
 def strt1():
-    print('\n------------------------------------------------------------\n',color.blue, '>>', color.yellow, 'You wake up in a dark cave.', color.blue, '\n  >>', color.yellow, 'You slowly standup and start walking towards a path.\n', color.blue, '>>', color.yellow, 'You see the Excaliber and a shield with the head of medusa \n      lying on the floor\n',
-    color.blue, '>>', color.yellow, 'You ignore them and move forward.', 'As you go on you \n      see three chambers...', color.red, '\n\n  [YOU HAVE ENTERED SCENE 1]\n', color.white, '------------------------------------------------------------\n')
+    print(color.cyan,'\n  ------------------------------------------------------------\n',color.blue, '>>', color.yellow, 'You wake up in a dark cave.', color.blue, '\n  >>', color.yellow, 'You slowly standup and start walking towards a path.\n', color.blue, '>>', color.yellow, 'You see the Excaliber and a shield with the head of medusa \n      lying on the floor\n',
+    color.blue, '>>', color.yellow, 'You ignore them and move forward.', 'As you go on you \n      see three chambers...', color.red, '\n\n  [YOU HAVE ENTERED SCENE 1]\n',color.cyan, '------------------------------------------------------------\n',color.white)
+
 def scene1():
     
     print('Choose one of the Pathways you see before you!')
@@ -48,6 +49,8 @@ def scene1():
        sleep(2)
        bc.teleport()
        sleep(2)
+       bc.intro()
+       sleep(3)
        bc.flashback()
     else:
        exit()
