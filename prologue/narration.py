@@ -5,14 +5,14 @@ from time import sleep
 
 def entry():
     convoTitle(
-        "NARRATOR",
-        "\n\t The reign of terror had become a reality as \n\t the evil king Xerxes had begun expanding his \n\t kingdom of utter evil."
+        "Commander",
+        "\n\t General Sean , Lord Xerxes has issued order to attack Qeltar "
     )
 
     sleep(0.5)
 
     convo(
-        "\n\n\t It was the era of wars, a time period in the \n\t Universe where WAR was the answer to everything.\n\t Several kingdoms had begun declaring wars on \n\t each other and conquering territories of each other."
+        "\n\n\t I know you're against this entire conquering and \n\t stuff but this is the only way stop a massacre from Happening. \n\t You don't want our lord to kill everyone on the planet now, \n\t do you ?"
     )
 
     input("\n\n[Any Key to Continue] ")
@@ -49,3 +49,5 @@ def entry():
     convoTitle(
         "XERXES",
         "\t AHHH, I can't wait for my conquest")
+    
+    buffer()
